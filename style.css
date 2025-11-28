@@ -789,3 +789,14 @@ p {
         width: 100%;
     }
 }
+/* Crop foto pada bagian Service Section */
+.service-item .icon img {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 80%; /* atau 50% jika ingin bentuk bulat */
+    display: block;
+}
+
+
