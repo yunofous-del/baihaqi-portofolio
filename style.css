@@ -826,6 +826,69 @@ p {
   text-decoration: none;
   color: inherit;
 }
+/* =========================
+   CONTACT SECTION – ENHANCED
+   ========================= */
+
+.contact-items {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+/* Kotak contact */
+.contact-item {
+  background: #ffffff;
+  padding: 30px 20px;
+  width: 280px;
+  border-radius: 16px;
+  text-align: center;
+  cursor: pointer;
+  transition: all 0.35s ease;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+}
+
+/* Hover effect */
+.contact-item:hover {
+  transform: translateY(-10px) scale(1.03);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.18);
+}
+
+/* Icon center + animasi */
+.contact-item .icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 15px;
+  transition: transform 0.3s ease;
+}
+
+.contact-item:hover .icon {
+  transform: scale(1.15) rotate(3deg);
+}
+
+/* Judul */
+.contact-item h1 {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 6px;
+  color: #222;
+}
+
+/* Isi */
+.contact-item h2 {
+  font-size: 15px;
+  font-weight: 400;
+  color: #555;
+  line-height: 1.4;
+}
+
+/* Link biar full card bisa diklik */
+.contact-item a {
+  display: block;
+}
+
 
 
 
